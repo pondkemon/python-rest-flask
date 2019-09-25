@@ -6,10 +6,17 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXFileReference section */
+		B26A6400233BD239003853BC /* waitress_server.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = waitress_server.py; sourceTree = "<group>"; };
+		B26A6401233BD239003853BC /* predict.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = predict.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		B26A63F5233BD1FB003853BC = {
 			isa = PBXGroup;
 			children = (
+				B26A6401233BD239003853BC /* predict.py */,
+				B26A6400233BD239003853BC /* waitress_server.py */,
 			);
 			sourceTree = "<group>";
 		};
