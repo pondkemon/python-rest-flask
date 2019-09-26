@@ -3,7 +3,7 @@
 How to start
 //mac
 1. cd {project}
-2. install venv or install python3 -> $python3 -m venv myenv
+2. install venv or install python3 -> $python3 -m venv env
 3. $. venv/bin/activate
 4. $python waitress_server.py if error occoured try to install lib reqire
    (search in Google)
